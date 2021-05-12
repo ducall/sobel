@@ -13,6 +13,8 @@ wire    [7:0]    po_data;
 
 
 
+//接口模块的例化
+
 uart_rx uart_rx_inst
 (
 .sys_clk   (sys_clk 	)   , //系统时钟50MHz
